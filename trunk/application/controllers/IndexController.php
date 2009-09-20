@@ -11,6 +11,9 @@ class IndexController extends Zend_Controller_Action
     public function indexAction()
     {
         // action body
+        $some = new Default_Model_Some();
+        
+        Dojend_Debug::vd($some);
     }
 
 
